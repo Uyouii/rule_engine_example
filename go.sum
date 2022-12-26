@@ -8,3 +8,5 @@ github.com/uyouii/rule_engine v0.0.0-20221225152959-a9658f1f13ef h1:VrBBuhtq0loq
 github.com/uyouii/rule_engine v0.0.0-20221225152959-a9658f1f13ef/go.mod h1:AtAzlutDUKRejVvyHPzL4Pio9a/J6kVaWNaqM4ytEB0=
 github.com/uyouii/rule_engine v0.0.0-20221225155112-74d84e9f4710 h1:SYW14dmSEo6KHAEsfN8P7GsukXuFrGcjSWedMqOD53s=
 github.com/uyouii/rule_engine v0.0.0-20221225155112-74d84e9f4710/go.mod h1:AtAzlutDUKRejVvyHPzL4Pio9a/J6kVaWNaqM4ytEB0=
+github.com/uyouii/rule_engine v1.0.0 h1:OIKlU3KXcrjsG01Imp7PDGrQYMjAVsidmQP21/Wp1Qo=
+github.com/uyouii/rule_engine v1.0.0/go.mod h1:AtAzlutDUKRejVvyHPzL4Pio9a/J6kVaWNaqM4ytEB0=
