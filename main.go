@@ -14,7 +14,7 @@ func main() {
 		rule_engine.GetParam("s", "hello world"),
 		rule_engine.GetParam("b", false),
 		rule_engine.GetParam("d", 3.3),
-		// get decimal from string
+		// spefic the param type as decimal
 		rule_engine.GetParamWithType("d2", rule_engine.ValueTypeDecimal, "3.3"),
 	}
 
@@ -54,6 +54,6 @@ func main() {
 		if err != nil {
 			panic(err)
 		}
-		fmt.Printf("%v = %v\n", example, res.Value)
+		fmt.Printf("%v  --> %v\n", example, res.Value)
 	}
 }
