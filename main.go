@@ -14,6 +14,8 @@ func main() {
 		rule_engine.GetParam("s", "hello world"),
 		rule_engine.GetParam("b", false),
 		rule_engine.GetParam("d", 3.3),
+		// get decimal from string
+		rule_engine.GetParamWithType("d2", rule_engine.ValueTypeDecimal, "3.3"),
 	}
 
 	// use decimal: true
@@ -42,6 +44,7 @@ func main() {
 		`min(len({{s}}), {{i}}, {{f}}, {{d}})`,
 		`int({{i}} / {{f}})`,
 		`{{d}} * 10 - 3 - int({{i}} / {{f}})`,
+		`{{d2}} - {{d}}`,
 		// if else
 		`{{d}} * 10 if len({{s}}) > 10 else {{f}} / 10`,
 	}
